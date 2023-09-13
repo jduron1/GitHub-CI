@@ -20,4 +20,4 @@
        steps:
          - uses: actions/checkout@v3
          - name: Build project
-         - run: g++ hello_world.cpp -std=c++17 -o hello
+           run: g++ hello_world.cpp -std=c++17 -o hello
